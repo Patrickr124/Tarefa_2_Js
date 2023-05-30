@@ -10,7 +10,7 @@ function adicionarMensagem(apelido,mensagem){
 function formatarMensagens(){
   let htmlData='';
   
-for(let i=0;i<listaMensagens.length;i++){
+for(let i=0;i<listaMensagens.length;i++) {
 
 
 let mensagem=listaMensagens[i];
