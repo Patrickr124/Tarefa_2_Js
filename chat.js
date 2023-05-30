@@ -10,7 +10,7 @@ function adicionarMensagem(apelido,mensagem){
 function formatarMensagens(){
   let htmlData='';
   
-for(let i in listaMensagens){
+for(let i=0;i<listaMensagens.length;i++){
 
 
 let mensagem=listaMensagens[i];
@@ -22,7 +22,7 @@ let mensagem=listaMensagens[i];
  htmlData += '</div>';
   
   }
-  i=0;i<listaMensagens.length++;
+  
 
   return htmlData;
 }
